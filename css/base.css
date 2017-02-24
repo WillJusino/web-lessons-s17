@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ------- [ Border Box ] -------- */
+
+*, *:before, *:after {
+	-wedkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* ------- [ Basic Styles ] -------- */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 1.6em;
+	font-size: 100%;
+	color: #2f2f2f;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */	
+}
+
+/* ------- { Typography } -------- */
+
+p{
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+	font-size: 3.250em;
+	line-height: 1.1;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+	font-size: 2.500em;
+	line-height: 1.1;
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+	font-size: 1.500em;
+	line-height: 1.1;
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 900;
+	font-size: 1em;
+	line-height: 1.1;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+h5 {
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 900;
+	font-size: 1em;
+	line-height: 1.1;
+}
+
+h6 {
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 900;
+	font-size: 1em;
+	line-height: 1.1;
+}
+
+/* ------- [ Site Links ] -------- */
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #56627a;
+	text-decoration: underline;
+}
+
+a:active: {
+	color: #56627a;
+}
+
+/* ------- [ Simple Grid ] -------- */
+
+/* 2 Columns */
+
+.columns_2 {
+	width: 460px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_2:last-fo-type {
+	margin-right: 0;	
+}
+
+/* 3 Columns */
+
+.columns_3 {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_3:last-fo-type {
+	margin-right: 0;	
+}
+
+/* 4 Columns */
+
+.columns_4 {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_4:last-fo-type {
+	margin-right: 0;	
+}
+
+/* 5 Columns */
+
+.columns_5 {
+	width: 172px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_5:last-fo-type {
+	margin-right: 0;	
+}
+
+/* 6 Columns */
+
+.columns_6 {
+	width: 140px;
+	float: left;
+	margin-right: 20px;
+}
+
+.columns_6:last-fo-type {
+	margin-right: 0;	
+}
+
+
+
+/* ------- [ Misc ] -------- */
+
+.remove-bottom {
+	margin-bottom: 0;	
+}
+
+.half-bottom {
+	margin-bottom: 10px;	
+}
+
+.add-bottom {
+	margin-bottom: 20px;	
+}
+
+.align-left {
+	float: left;
+	margin: 0 10px 0 0;	
+}
+
+.align-right {
+	float: right;
+	margin: 0 0 0 10px;	
+}
+
+.align-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
